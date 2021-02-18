@@ -1,0 +1,67 @@
+body{
+  background-color: rgb(217,217,217);
+  background-image: url("https://cdn.shopify.com/s/files/1/0898/4708/articles/global-ecommerce-marketplace.png?v=1538348244");
+  background-size: 100% 550px;
+  background-repeat: no-repeat;
+  position: relative;
+  width: 100%;
+  min-height: 100vh;
+  overflow-x: hidden;
+}
+.content{
+	width:50%;
+	margin: 20px auto;
+	padding: 20px;
+	border: 1px solid #333;
+	border-radius: 50px;
+	background-color: transparent;
+	color: #333;
+}
+.form-title{
+	font-family: "fantasy", Arial;
+	margin-bottom: 40px;
+	text-align: center;
+	font-size: 35px;
+}
+.radio-btns,#city,textarea,#card,.phone{
+	margin-bottom: 30px;
+	margin-top: 10px;
+	width: 60%;
+	height: 50px;
+}
+#card{
+	margin-left: 20px;
+	display: inline-block;
+}
+.form-label,.radio-btns,#city{
+	display: block;
+	font-size: 25px;
+}
+.form-btns{
+  text-align: center;
+  margin-top: 70px;
+  padding-bottom: 20px;
+}
+.a-btn{
+  border-radius: 10px;
+  background-color: rgb(61,96,64);
+  color: #BBB;
+  margin-right: 2%;
+  margin-left: -2%;
+  width: 27%;
+  height: 60px;
+}
+
+.cancel-btn{
+  border-radius: 10px;
+  background-color: #BBB;
+  color: #333;
+  width: 27%;
+  height: 60px;
+}
+button:hover{
+  color:white;
+}
+input[type="radio"]{
+	margin-right: 10px;
+}
